@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sudo pacman -Syu netowrkmanager \
+sudo pacman -Syu xmonad-contrib \
                  xmonad \
-                 xmonad-contrib \ 
-                 xmonad-utils \
-                 xdotool \
-                 gvim
-
+                 xmobar \
+                 cabal-install \
+                 xdg-user-dirs \
+                 xdg-utils \
+                 wget \
